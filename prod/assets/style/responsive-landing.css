@@ -1,0 +1,195 @@
+@media screen and (max-width: 1600px) {
+  .home-page {
+    height: 991px; }
+    .home-page .wrapper {
+      width: 1042px; }
+      .home-page .wrapper .outer-wrap .img-wrap {
+        width: 464px; }
+      .home-page .wrapper .outer-wrap .titles-wrap h1 {
+        font-size: 54px; }
+      .home-page .wrapper .outer-wrap .titles-wrap .main-titles-wrap {
+        font-size: 46px; }
+        .home-page .wrapper .outer-wrap .titles-wrap .main-titles-wrap div {
+          font-size: 46px; }
+      .home-page .wrapper .outer-wrap .titles-wrap h2 {
+        font-size: 16px; } }
+
+@media screen and (max-width: 1372px) {
+  .home-page .wrapper {
+    width: 900px; }
+    .home-page .wrapper .outer-wrap .img-wrap {
+      width: 434px; }
+    .home-page .wrapper .outer-wrap .titles-wrap {
+      width: 284px; }
+      .home-page .wrapper .outer-wrap .titles-wrap h1 {
+        font-size: 50px; }
+      .home-page .wrapper .outer-wrap .titles-wrap .main-titles-wrap {
+        font-size: 42px; }
+        .home-page .wrapper .outer-wrap .titles-wrap .main-titles-wrap div {
+          font-size: 42px; }
+      .home-page .wrapper .outer-wrap .titles-wrap h2 {
+        font-size: 15px;
+        width: auto; } }
+
+@media screen and (max-width: 1048px) {
+  nav .wrapper {
+    padding: 0 32px;
+    padding-right: 6px; }
+    nav .wrapper .bar-link-wrap {
+      display: none; }
+    nav .wrapper span {
+      flex: 1;
+      height: 100%; }
+    nav .wrapper .menu-btn {
+      display: flex; }
+  .home-page .wrapper {
+    padding: 0;
+    width: 100%; }
+    .home-page .wrapper .outer-wrap {
+      flex-direction: column-reverse; }
+      .home-page .wrapper .outer-wrap .img-wrap {
+        width: 406px; }
+      .home-page .wrapper .outer-wrap .titles-wrap {
+        margin-top: -21px;
+        margin-right: 0;
+        width: 460px;
+        align-items: center; }
+        .home-page .wrapper .outer-wrap .titles-wrap h1 {
+          text-align: center; }
+        .home-page .wrapper .outer-wrap .titles-wrap .main-title-wrap {
+          justify-content: center; }
+          .home-page .wrapper .outer-wrap .titles-wrap .main-title-wrap div {
+            text-align: center; }
+        .home-page .wrapper .outer-wrap .titles-wrap h2 {
+          text-align: center;
+          height: auto;
+          margin-bottom: 46px; }
+  .main-wrapper .outer-wrap {
+    height: 544px; }
+  .recommendation {
+    padding-right: 0;
+    padding-left: 0; }
+    .recommendation .wrapper .row-wrap {
+      width: 100%; }
+  .owl-item li .img-wrap {
+    padding: 0 0 0 25px; }
+  .socials.first {
+    opacity: 0; }
+  .git {
+    display: none; } }
+
+@media screen and (max-width: 859px) {
+  .main-wrapper .img-outer-wrap .img-wrapper {
+    flex-direction: row;
+    height: auto; }
+    .main-wrapper .img-outer-wrap .img-wrapper .line {
+      flex-direction: column-reverse; }
+      .main-wrapper .img-outer-wrap .img-wrapper .line #html {
+        display: none; }
+    .main-wrapper .img-outer-wrap .img-wrapper .git {
+      display: flex; } }
+
+@media screen and (max-width: 672px) {
+  .recommendation .wrapper .row-wrap {
+    width: 387px;
+    height: 469px; }
+  .owl-item li {
+    flex-direction: column;
+    height: 469px; }
+    .owl-item li .img-wrap {
+      width: 100%;
+      padding: 0;
+      height: auto;
+      margin-bottom: 45px; }
+      .owl-item li .img-wrap img {
+        width: 38%; }
+    .owl-item li .text-wrap {
+      margin: 0;
+      height: 23px;
+      margin-top: 35px;
+      justify-content: flex-start; }
+      .owl-item li .text-wrap .content h1.title {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        line-height: 38px;
+        font-size: 1.65rem; }
+        .owl-item li .text-wrap .content h1.title strong {
+          font-size: 1.75rem; }
+      .owl-item li .text-wrap .personal-info {
+        margin-top: 20px;
+        justify-content: center; } }
+
+@media screen and (max-width: 688px) {
+  .main-wrapper .outer-wrap {
+    width: 100%; }
+    .main-wrapper .outer-wrap .wrap {
+      width: 100%; }
+      .main-wrapper .outer-wrap .wrap .dot1-wrap {
+        display: none; }
+      .main-wrapper .outer-wrap .wrap .dot2-wrap {
+        display: none; }
+      .main-wrapper .outer-wrap .wrap .flip-front {
+        width: 100%;
+        border-radius: 0; }
+      .main-wrapper .outer-wrap .wrap .flip-back {
+        width: 100%;
+        border-radius: 0; } }
+
+@media screen and (max-width: 640px) {
+  .socials {
+    margin-left: 27px; }
+  .home-page .wrapper .outer-wrap .titles-wrap h1 {
+    font-size: 45px; }
+  .home-page .wrapper .outer-wrap .titles-wrap .main-title-wrap {
+    font-size: 45px; }
+    .home-page .wrapper .outer-wrap .titles-wrap .main-title-wrap div {
+      font-size: 45px; }
+  .home-page .wrapper .outer-wrap .titles-wrap h2 {
+    line-height: 25px; }
+  .main-wrapper .outer-wrap .wrap {
+    width: 100%; } }
+
+@media screen and (max-width: 591px) {
+  .home-page .wrapper .outer-wrap .titles-wrap h1 {
+    font-size: 43px; }
+  .home-page .wrapper .outer-wrap .titles-wrap .main-title-wrap {
+    font-size: 43px; }
+    .home-page .wrapper .outer-wrap .titles-wrap .main-title-wrap div {
+      font-size: 43px; }
+  .home-page .wrapper .outer-wrap .titles-wrap h2 {
+    width: 80%; }
+  .home-page .wrapper .outer-wrap .img-wrap {
+    width: 69%; } }
+
+@media screen and (max-width: 485px) {
+  .home-page .wrapper .outer-wrap .titles-wrap {
+    width: 100%; }
+    .home-page .wrapper .outer-wrap .titles-wrap h2 {
+      width: 74%;
+      line-height: 23px; }
+  .home-page .wrapper .outer-wrap .img-wrap {
+    width: 302px; }
+  .main-wrapper .outer-wrap .wrap .flip-front .inner-wrap {
+    width: 82%; }
+    .main-wrapper .outer-wrap .wrap .flip-front .inner-wrap .item {
+      width: 100%; }
+      .main-wrapper .outer-wrap .wrap .flip-front .inner-wrap .item .title-wrap {
+        width: 100%; } }
+
+@media screen and (max-width: 436px) {
+  .main-wrapper .outer-wrap .wrap {
+    height: 100%; }
+    .main-wrapper .outer-wrap .wrap .flip-back .title {
+      margin-top: 94px; }
+  .recommendation .wrapper .row-wrap {
+    width: 100%; }
+  .owl-item li {
+    width: 100%; }
+  footer h1 {
+    font-size: 13px; } }
+
+@media screen and (max-width: 324px) {
+  .owl-item li .text-wrap .personal-info h1 {
+    font-size: 14px;
+    margin-left: 3px; } }

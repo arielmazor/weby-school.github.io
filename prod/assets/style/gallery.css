@@ -1,0 +1,72 @@
+/* -----------------------------------------------
+  recommendation
+----------------------------------------------- */
+.owl-controls.clickable {
+  margin-top: 40px; }
+  .owl-controls.clickable .owl-page span {
+    background: #bb004e; }
+
+.owl-carousel {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.owl-item li {
+  height: 380px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: flex-end; }
+  .owl-item li .img-wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 42px 0 25px;
+    box-sizing: border-box; }
+    .owl-item li .img-wrap img {
+      background-repeat: no-repeat;
+      height: auto;
+      animation: float 4s ease infinite;
+      width: 78%; }
+  .owl-item li .text-wrap {
+    flex-direction: column;
+    flex: 1;
+    margin-right: 40px;
+    align-content: flex-end;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center; }
+    .owl-item li .text-wrap .content {
+      display: flex;
+      justify-content: flex-end; }
+      .owl-item li .text-wrap .content .title {
+        font-size: 2.15rem;
+        line-height: 1.615em;
+        letter-spacing: -0.03rem;
+        font-weight: 400;
+        direction: rtl;
+        text-align: initial;
+        color: #151515;
+        margin-bottom: 10px; }
+      .owl-item li .text-wrap .content strong {
+        color: black;
+        margin-right: 15px;
+        font-size: 2.15rem; }
+    .owl-item li .text-wrap .personal-info {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-right: 18px; }
+      .owl-item li .text-wrap .personal-info h1,
+      .owl-item li .text-wrap .personal-info h2 {
+        direction: rtl;
+        text-align: initial;
+        font-family: "varela round";
+        color: #adadad; }
+      .owl-item li .text-wrap .personal-info h1 {
+        font-size: 17px;
+        font-weight: 600;
+        margin-left: 10px; }
+      .owl-item li .text-wrap .personal-info h2 {
+        font-size: 14px;
+        font-weight: 500; }
