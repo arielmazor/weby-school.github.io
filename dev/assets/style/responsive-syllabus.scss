@@ -1,0 +1,100 @@
+@media screen and(max-width:1288px) {
+    .home-page {
+        .wrapper {
+            width: 100%;
+            .outer-wrap {
+                .inner-wrap {
+                    margin-left: 82px;
+                }
+                .img-wrap {
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    img {
+                        height: 100%;
+                        width: 432px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width:1048px) {
+    .socials.first {
+        display: none;
+    }
+    .home-page {
+        .wrapper {
+            .outer-wrap {
+                justify-content: center;
+                .inner-wrap {
+                    margin: 0;
+                }
+                .img-wrap {
+                    display: none;
+                }
+            }
+        }
+    }
+    .main-outer-wrap {
+        .main-inner-wrap {
+            max-width: 623px;
+            .row {
+                padding: 0;
+
+                .img-wrap {
+                    display: none;
+                }
+                .inner-wrap {
+                    width: 100%;
+                    align-items: center;
+                    .wrap {
+                        h1.title {
+                            text-align: center;
+                        }
+                        img {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width:660px) {
+    .main-outer-wrap {
+        .main-inner-wrap {
+            .row {
+                .inner-wrap {
+                    width: 100%;
+                    align-items: center;
+                    .wrap {
+                        height: auto;
+                        h1.title {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width:376px) {
+    .home-page {
+        height: 978px;
+        .outer-wrap {
+            .inner-wrap {
+                .item {
+                    .title-wrap {
+                        .title {
+                            font-size: 16px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

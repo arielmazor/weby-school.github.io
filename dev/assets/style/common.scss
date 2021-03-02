@@ -1,0 +1,45 @@
+/*--------------------------------------------------
+Header
+--------------------------------------------------*/
+
+.f-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*--------------------------------------------------*/
+
+body {
+    margin: 0;
+    background: white;
+}
+
+/*--------------------------------------------------*/
+.title {
+    color: #06b39e;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 37px;
+    font-family: "varela Round";
+    direction: rtl;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1048px) {
+    nav {
+        .wrapper {
+            padding: 0 32px;
+            padding-right: 6px;
+            .bar-link-wrap {
+                display: none;
+            }
+            span {
+                flex: 1;
+                height: 100%;
+            }
+            .menu-btn {
+                display: flex;
+            }
+        }
+    }
+}

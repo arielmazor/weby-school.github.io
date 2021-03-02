@@ -1,0 +1,164 @@
+main {
+    background-size: 22px, 100%;
+    background-image: url(https://www.edgify.ai/wp-content/themes/edgifyai/dist/assets/img/dot-careers1.svg),
+        linear-gradient(180deg, #f5f5f5, #fff 100%);
+    background-size: 22px, 100%;
+}
+
+.home-page {
+    .wrapper {
+        width: 1105px;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        .title {
+            color: #e63778;
+            margin-top: 0;
+            margin-bottom: 70px;
+            font-size: 36px;
+        }
+        .outer-wrap {
+            .inner-wrap {
+                max-width: 421px;
+                width: 100%;
+                .item {
+                    overflow: hidden;
+                    height: auto;
+                    border-bottom: 1px solid #dcdcdc;
+                    width: 100%;
+                    cursor: pointer;
+                    background: white;
+                    .title-wrap {
+                        height: 59px;
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        cursor: pointer;
+                        svg#img {
+                            height: auto;
+                            width: 11px;
+                            margin-right: 29px;
+                            transition: all 0.2s ease-in-out;
+                        }
+                        .title {
+                            font-family: "varela Round";
+                            font-size: 19px;
+                            color: #000000;
+                            font-weight: 500;
+                            margin: 0;
+                            justify-content: flex-end;
+                            flex: 1;
+                            display: flex;
+                        }
+                        .plus {
+                            height: auto;
+                            width: 18px;
+                            background: transparent;
+                            border-radius: 50%;
+                            cursor: pointer;
+                            transition: 0.1s ease-in-out;
+                            margin-right: 20px;
+                            margin-left: 25px;
+                            svg {
+                                height: 24px;
+                                width: 24px;
+                            }
+                        }
+                    }
+                    .content {
+                        font-family: "varela Round";
+                        font-size: 14.5px;
+                        line-height: 28px;
+                        direction: rtl;
+                        margin: 2px 74px 18px 23px;
+                    }
+                }
+                .item:hover {
+                    .title-wrap {
+                        svg#img {
+                            margin-right: 22px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.main-outer-wrap {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://www.edgify.ai/wp-content/themes/edgifyai/dist/assets/img/dot-careers1.svg);
+    background-size: 22px, 100%;
+    background-image: url(https://www.edgify.ai/wp-content/themes/edgifyai/dist/assets/img/dot-careers1.svg),
+        linear-gradient(180deg, #f5f5f5, #fff 100%);
+    background-size: 22px, 100%;
+    flex-direction: column;
+    padding: 50px;
+    box-sizing: border-box;
+    .main-inner-wrap {
+        height: auto;
+        width: 122%;
+        max-width: 931px;
+        position: relative;
+        .row {
+            width: 100%;
+            border-radius: 22px;
+            position: relative;
+            height: 338px;
+            background: rgba(255, 255, 255, 0.5652);
+            margin-bottom: 54px;
+            box-shadow: 1px 5px 50px 1px rgba(0, 0, 0, 0.068);
+            box-sizing: border-box;
+            padding: 0px 50px;
+            display: flex;
+            justify-content: space-between;
+            .img-wrap {
+                width: 301px;
+                height: 100%;
+                img {
+                    height: 170px;
+                    width: auto;
+                    opacity: 0.6;
+                    transition: 0.4s ease-in-out;
+                }
+            }
+            .inner-wrap {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .wrap {
+                    display: flex;
+                    height: 46px;
+                    align-items: center;
+                    .img {
+                        height: auto;
+                        width: 18px;
+                        background: transparent;
+                        border-radius: 50%;
+                        cursor: pointer;
+                        transition: 0.1s ease-in-out;
+                        margin-right: 20px;
+                        margin-left: 25px;
+                    }
+                    .title {
+                        font-size: 18px;
+                        color: #000000;
+                        font-weight: 500;
+                        margin: 0;
+                        flex: 1;
+                        display: flex;
+                    }
+                }
+            }
+            &:hover {
+                .img-wrap {
+                    img {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}
