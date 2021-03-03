@@ -106,7 +106,29 @@
     }
     .main-wrapper {
         .outer-wrap {
-            height: 544px;
+            width: 100%;
+            padding: 0;
+            height: 600px;
+            .wrap {
+                width: 100%;
+                .dot1-wrap {
+                    display: none;
+                }
+                .dot2-wrap {
+                    display: none;
+                }
+                .flip-front {
+                    width: 100%;
+                    border-radius: 0;
+                }
+                .flip-back {
+                    width: 100%;
+                    border-radius: 0;
+                }
+            }
+        }
+        .divider {
+            display: none;
         }
     }
     .recommendation {
@@ -194,30 +216,6 @@
                 .personal-info {
                     margin-top: 20px;
                     justify-content: center;
-                }
-            }
-        }
-    }
-}
-@media screen and (max-width: 688px) {
-    .main-wrapper {
-        .outer-wrap {
-            width: 100%;
-            .wrap {
-                width: 100%;
-                .dot1-wrap {
-                    display: none;
-                }
-                .dot2-wrap {
-                    display: none;
-                }
-                .flip-front {
-                    width: 100%;
-                    border-radius: 0;
-                }
-                .flip-back {
-                    width: 100%;
-                    border-radius: 0;
                 }
             }
         }

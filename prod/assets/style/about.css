@@ -5,7 +5,8 @@
     flex-direction: column;
     justify-content: normal;
     align-items: center;
-    margin-top: 8px; }
+    margin-top: 8px;
+    animation: fadeUp 1.2s ease-in-out; }
     .home-page .wrapper svg#img {
       transform: rotate(90deg);
       margin-bottom: 48px;
@@ -101,7 +102,7 @@
     position: relative;
     flex-direction: column; }
     .main-outer-wrap .inner-wrap .row {
-      height: 414px;
+      padding: 33px 0;
       width: 100%;
       background: rgba(255, 255, 255, 0.603);
       border-radius: 15px;
@@ -140,19 +141,8 @@
     transform-origin: bottom left;
     transform: scale(0); } }
 
-@keyframes shake {
-  0% {
-    transform-origin: center;
-    transform: rotate(0deg); }
-  80% {
-    transform-origin: center;
-    transform: rotate(0deg); }
-  85% {
-    transform-origin: center;
-    transform: rotate(4deg); }
-  95% {
-    transform-origin: center;
-    transform: rotate(-4deg); }
-  100% {
-    transform-origin: center;
-    transform: rotate(0deg); } }
+@keyframes fadeUp {
+  from {
+    transform: translateY(82px); }
+  to {
+    transform: translateY(0); } }

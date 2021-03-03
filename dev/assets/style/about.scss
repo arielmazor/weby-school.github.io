@@ -6,6 +6,7 @@
         justify-content: normal;
         align-items: center;
         margin-top: 8px;
+        animation: fadeUp 1.2s ease-in-out;
         svg#img {
             transform: rotate(90deg);
             margin-bottom: 48px;
@@ -119,7 +120,7 @@
         flex-direction: column;
 
         .row {
-            height: 414px;
+            padding: 33px 0;
             width: 100%;
             background: rgba(255, 255, 255, 0.603);
             border-radius: 15px;
@@ -170,25 +171,11 @@
     }
 }
 
-@keyframes shake {
-    0% {
-        transform-origin: center;
-        transform: rotate(0deg);
+@keyframes fadeUp {
+    from {
+        transform: translateY(82px);
     }
-    80% {
-        transform-origin: center;
-        transform: rotate(0deg);
-    }
-    85% {
-        transform-origin: center;
-        transform: rotate(4deg);
-    }
-    95% {
-        transform-origin: center;
-        transform: rotate(-4deg);
-    }
-    100% {
-        transform-origin: center;
-        transform: rotate(0deg);
+    to {
+        transform: translateY(0);
     }
 }
